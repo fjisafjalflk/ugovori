@@ -67,7 +67,7 @@ const contractTexts = {
       {
         title: 'Član 6 – Naknada',
         content: [
-          (data) => `Primalac se obavezuje da Izvršiocu isplati naknadu od ${data.fee_eur} EUR (bez PDV‑a).`,
+          (data) => `Primalac se obavezuje da Izvršiocu isplati naknadu od ${data.fee_eur} EUR.`,
           (data) => `Naknada dospeva za plaćanje u roku od ${data.payment_due_days} dana od potpisivanja ugovora. Primalac je dužan da, pored ugovorene naknade, plati i pripadajući PDV u skladu sa važećim propisima Republike Srbije.`,
           'Sve isplate vrše se u dinarskoj protivvrednosti po srednjem kursu Narodne banke Srbije na dan plaćanja, osim ako nije drugačije dogovoreno.'
         ]
