@@ -101,8 +101,9 @@ const contractTexts = {
       {
         title: 'Član 9 – Poverljivost',
         content: [
-          'Ugovorne strane su dužne da sve tehničke, poslovne i komercijalne podatke do kojih dođu tokom realizacije ovog Ugovora čuvaju kao poslovnu tajnu i nakon prestanka ugovora.',
-          'Podaci se ne smeju otkrivati trećim licima niti koristiti u svrhe koje nisu povezane sa realizacijom ovog ugovora. Povreda ove obaveze predstavlja osnov za naknadu štete.'
+         'Ugovorne strane su dužne da sve podatke tehničke, poslovne i komercijalne prirode do kojih su došli u realizaciji ovog Ugovora, tokom njegovog trajanja, kao i nakon toga, čuvaju kao poslovnu tajnu, bez obzira na njihove izvore (u daljem tekstu: „poverljive informacije“). Ugovorne strane se obavezuju da, bilo za vreme trajanja ovog Ugovora ili po njegovom isteku, neće direktno ili indirektno otkrivati poslovne tajne bilo kojem fizičkom ili pravnom licu ili ih koristiti na bilo koji način koji nije u vezi ugovorenog posla.',
+  
+  'Odavanje poverljivih informacija predstavlja osnov za potraživanje naknade štete. Obaveza čuvanja poverljivih informacija traje i po prestanku ovog Ugovora. Ugovorne strane i lica poslovno povezana sa ugovornim stranama se obavezuju da tehničke, poslovne i komercijalne podatke o drugoj strani do kojih su došli u realizaciji ovog Ugovora neće koristiti u svrhu svoje poslovne aktivnosti.'
         ]
       },
       {
