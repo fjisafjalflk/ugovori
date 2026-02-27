@@ -109,8 +109,13 @@ const contractTexts = {
       {
         title: 'Član 10 – Raskid ugovora',
         content: [
-          (data) => `Ugovor se može raskinuti sporazumno ili jednostranom izjavom uz otkazni rok od ${data.notice_days} dana.`,
-          'Raskid ne oslobađa Primaoca obaveze plaćanja već izvršenih ili započetih usluga.'
+          (data) => `Ugovor se može raskinuti sporazumno, pisanim putem, ili jednostranom pisanom izjavom jedne ugovorne strane, uz otkazni rok od ${data.notice_days} dana, koji počinje da teče od dana prijema izjave o raskidu.`,
+
+(data) => `U slučaju jednostranog raskida od strane Primaoca, Primalac je dužan da Izvršiocu plati sve do dana raskida već izvršene usluge, kao i usluge koje su započete, a koje se po svojoj prirodi ne mogu obustaviti bez nastanka troškova ili štete za Izvršioca.`,
+
+'Raskid Ugovora ne utiče na obavezu plaćanja već dospelih novčanih obaveza, niti oslobađa Primaoca od naknade troškova nastalih u vezi sa realizacijom Ugovora do dana raskida.',
+
+'Odredbe o poverljivosti, naknadi štete i drugim odredbama koje po svojoj prirodi proizvode pravno dejstvo i nakon prestanka Ugovora ostaju na snazi i po njegovom raskidu.'
         ]
       },
       {
