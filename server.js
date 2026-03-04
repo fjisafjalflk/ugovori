@@ -418,11 +418,18 @@ app.post('/generate', async (req, res) => {
                   new Paragraph({
                     alignment: AlignmentType.CENTER,
                     children: [new TextRun({ text: texts.signatures.contractor, size: 20 })]
-                  }),
-                  new Paragraph({
-                    alignment: AlignmentType.CENTER,
-                    spacing: { before: 200 },
-                    children: [new TextRun({ text: data.zastupnik_izvrsioca, bold: true, size: 22 })]
+              }),
+              new Paragraph({ spacing: { before: 200, after: 200 }, children: [new TextRun({ text: '', size: 22 })] }),
+              new Paragraph({ spacing: { before: 200, after: 200 }, children: [new TextRun({ text: '', size: 22 })] }),
+              new Paragraph({ spacing: { before: 200, after: 200 }, children: [new TextRun({ text: '', size: 22 })] }),
+              new Paragraph({
+                alignment: AlignmentType.CENTER,
+                children: [new TextRun({ text: '________________________', size: 22 })]
+              }),
+              new Paragraph({
+                alignment: AlignmentType.CENTER,
+                spacing: { before: 200 },
+                children: [new TextRun({ text: data.zastupnik_izvrsioca, bold: true, size: 22 })]
                   }),
                   new Paragraph({
                     alignment: AlignmentType.CENTER,
