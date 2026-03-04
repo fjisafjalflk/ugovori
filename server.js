@@ -379,17 +379,24 @@ app.post('/generate', async (req, res) => {
               new TableCell({
                 borders,
                 width: { size: 4180, type: WidthType.DXA },
-                margins: { top: 2400, bottom: 120, left: 120, right: 120 },
+                margins: { top: 800, bottom: 120, left: 120, right: 120 },
                 verticalAlign: VerticalAlign.BOTTOM,
                 children: [
                   new Paragraph({
                     alignment: AlignmentType.CENTER,
-                    children: [new TextRun({ text: texts.signatures.client, size: 20 })]
-                  }),
-                  new Paragraph({
-                    alignment: AlignmentType.CENTER,
-                    spacing: { before: 200 },
-                    children: [new TextRun({ text: data.direktor_narucioca, bold: true, size: 22 })]
+                   children: [new TextRun({ text: texts.signatures.client, size: 20 })]
+              }),
+              new Paragraph({ spacing: { before: 200, after: 200 }, children: [new TextRun({ text: '', size: 22 })] }),
+              new Paragraph({ spacing: { before: 200, after: 200 }, children: [new TextRun({ text: '', size: 22 })] }),
+              new Paragraph({ spacing: { before: 200, after: 200 }, children: [new TextRun({ text: '', size: 22 })] }),
+              new Paragraph({
+                alignment: AlignmentType.CENTER,
+                children: [new TextRun({ text: '________________________', size: 22 })]
+              }),
+              new Paragraph({
+                alignment: AlignmentType.CENTER,
+                spacing: { before: 200 },
+                children: [new TextRun({ text: data.direktor_narucioca, bold: true, size: 22 })]
                   }),
                   new Paragraph({
                     alignment: AlignmentType.CENTER,
@@ -405,7 +412,7 @@ app.post('/generate', async (req, res) => {
               new TableCell({
                 borders,
                 width: { size: 4180, type: WidthType.DXA },
-                margins: { top: 2400, bottom: 120, left: 120, right: 120 },
+                margins: { top: 800, bottom: 120, left: 120, right: 120 },
                 verticalAlign: VerticalAlign.BOTTOM,
                 children: [
                   new Paragraph({
