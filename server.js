@@ -379,7 +379,7 @@ app.post('/generate', async (req, res) => {
               new TableCell({
                 borders,
                 width: { size: 4180, type: WidthType.DXA },
-                margins: { top: 800, bottom: 120, left: 120, right: 120 },
+                margins: { top: 2400, bottom: 120, left: 120, right: 120 },
                 verticalAlign: VerticalAlign.BOTTOM,
                 children: [
                   new Paragraph({
@@ -405,7 +405,7 @@ app.post('/generate', async (req, res) => {
               new TableCell({
                 borders,
                 width: { size: 4180, type: WidthType.DXA },
-                margins: { top: 800, bottom: 120, left: 120, right: 120 },
+                margins: { top: 2400, bottom: 120, left: 120, right: 120 },
                 verticalAlign: VerticalAlign.BOTTOM,
                 children: [
                   new Paragraph({
